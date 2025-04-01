@@ -95,8 +95,8 @@ pip install -r requirements.txt
 
 ## 📊 Sample Visualizations
 <div align="center"> 
-  <img src="C:\Users\Shell\Pictures\Screenshots\Screenshot 2025-04-02 010233.png" width="45%"> 
-  <img src="C:\Users\Shell\Pictures\Screenshots\Screenshot 2025-04-02 015121.png" width="45%"> 
+  <img src="C:\Users\Shell\Pictures\Screenshots\Screenshot 2025-04-02 010233.png" width="55%"> 
+  <img src="C:\Users\Shell\Pictures\Screenshots\Screenshot 2025-04-02 015121.png" width="55%"> 
   <p><em>Left: Most common side effects | Right: Drug rating distribution</em></p>
 </div>
 
