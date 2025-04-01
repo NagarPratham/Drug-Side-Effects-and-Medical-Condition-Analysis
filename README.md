@@ -93,15 +93,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Sample Visualizations
-<div align="center"> 
-  <img src="C:\Users\Shell\Pictures\Screenshots\Screenshot 2025-04-02 010233.png" width="55%"> 
-  <img src="C:\Users\Shell\Pictures\Screenshots\Screenshot 2025-04-02 015121.png" width="55%"> 
-  <p><em>Left: Most common side effects | Right: Drug rating distribution</em></p>
-</div>
-
----
-
 ## 🤝 Contributing
 We welcome contributions! Please follow these steps:
 
@@ -110,11 +101,6 @@ We welcome contributions! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📜 License
-Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
