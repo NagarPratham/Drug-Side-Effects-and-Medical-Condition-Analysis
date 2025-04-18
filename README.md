@@ -1,110 +1,78 @@
-# Drug Side Effects Analysis Project
+# Drug Side Effects & Medical Condition Analysis 🏥💊
 
-## 📌 Project Overview
-A comprehensive analysis of drug side effects and their impact on medication ratings using advanced data science techniques.
+A comprehensive analysis of drug side effects, medical conditions, user ratings, and safety profiles using sentiment analysis and machine learning techniques.
 
-### Key Objectives:
-- **Exploratory Data Analysis** of side effects patterns
-- **Sentiment Analysis** of side effect descriptions
-- **Machine Learning Models** to predict drug ratings
-- **Clustering** to identify drug safety groups
+## 📌 Table of Contents
+- [Project Overview](#-project-overview)
+- [Key Features](#-key-features)
+- [Methodology](#-methodology)
+- [Key Findings](#-key-findings)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Contact](#-contact)
 
-### Key Questions Answered:
-- Which side effects most negatively impact drug ratings?
-- Can we predict a drug's rating based on its side effects?
-- What clusters of drugs emerge based on safety profiles?
+## 🌟 Project Overview
+This project analyzes drug side effects, medical conditions, and user ratings to:
+- Identify top medical conditions and their treatment options
+- Evaluate user sentiment about drug side effects
+- Predict drug ratings based on various features
+- Cluster drugs into safety profile groups
+- Analyze pregnancy risk categories
 
----
+## 🚀 Key Features
+- **Sentiment Analysis**: Quantify side effect severity using TextBlob (-1 to +1 polarity)
+- **Rating Prediction**: Random Forest model with 0.78 R² score
+- **Drug Clustering**: K-Means clustering to group drugs by safety profiles
+- **Comprehensive EDA**: Word clouds, distribution plots, and trend analysis
+- **Pregnancy Safety**: FDA pregnancy risk category analysis
+- **Top Conditions**: Identification of top 10 medical conditions
 
-## 🛠️ Tech Stack
+## 🔬 Methodology
+### 📋 Basic Analysis
+- Top 10 conditions by drug availability
+- Average user ratings per condition
+- FDA pregnancy risk code analysis
+- Review volume per condition
 
-| Category           | Technologies                   |
-|-------------------|--------------------------------|
-| Core             | Python 3.8+, Jupyter Notebooks |
-| Data Processing  | Pandas, NumPy                  |
-| Visualization    | Matplotlib, Seaborn, Plotly    |
-| Machine Learning | Scikit-learn, TextBlob (NLP)   |
-| Deployment      | GitHub, Google Colab           |
+### 🧠 Advanced Analytics
+- **Sentiment Analysis**: TextBlob for side effect severity scoring
+- **Machine Learning**: Random Forest for rating prediction
+- **Clustering**: K-Means with PCA visualization
+- **Data Visualization**: Word clouds, bar plots, distribution analysis
 
----
+## 📊 Key Findings
+| Area | Insight |
+|------|---------|
+| Side Effects | Drugs with "difficulty breathing" side effects saw 32% lower ratings |
+| Sentiment | Topical drugs had ~15% better sentiment than oral |
+| Prediction | Most predictive features: side effect sentiment, review count |
+| Clusters | 3 distinct safety profile clusters identified |
+| Conditions | [Top condition] had the highest number of available treatments |
 
-## 📂 Repository Structure
-```
-drug-side-effects/
-├── data/
-│   ├── raw/               # Original datasets
-│   └── processed/         # Cleaned data
-├── notebooks/
-│   ├── 1_EDA.ipynb        # Exploratory Analysis
-│   ├── 2_ML_Models.ipynb  # Predictive Modeling
-│   └── 3_Clustering.ipynb # Drug Grouping
-├── reports/
-│   ├── figures/           # Visualizations
-│   └── findings.pdf       # Key insights
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+### Drug Clusters
+| Cluster | Characteristics |
+|---------|-----------------|
+| 0 | High-rated drugs with mild side effects |
+| 1 | Moderate ratings with mixed sentiment |
+| 2 | Low-rated drugs with severe side effects |
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.8+
-- Jupyter Lab
-- Git
-
-### Installation
-Clone the repository:
+## 💻 Installation
+1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/drug-side-effects.git
-cd drug-side-effects
-```
-Create a virtual environment:
-```bash
+git clone https://github.com/NagarPratham/Drug-Side-Effects-and-Medical-Condition-Analysis.git
+cd Drug-Side-Effects-and-Medical-Condition-Analysis
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-```
-Install dependencies:
-```bash
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
----
-
-## 🔍 Key Findings
-
-### Side Effect Impact:
-- Drugs with "difficulty breathing" side effects had **32% lower ratings**
-- Topical medications showed **15% better sentiment scores** than oral drugs
-
-### Prediction Model:
-- **Random Forest** achieved **0.78 R²** score in rating prediction
-- Most important features: **side effect sentiment, drug class, review count**
-
-### Drug Clusters:
-| Cluster | Characteristics |
-|---------|----------------|
-| 0       | High-rated, mild side effects |
-| 1       | Moderate ratings, some severe effects |
-| 2       | Low-rated, dangerous side effects |
-
----
-
-## 🤝 Contributing
-We welcome contributions! Please follow these steps:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
+## 🛠 Usage
+Run the Jupyter notebooks in this order:
+1. `1_data_collection_cleaning.ipynb`
+2. `2_eda_analysis.ipynb`
+3. `3_sentiment_analysis.ipynb`
+4. `4_model_training.ipynb`
+5. `5_clustering_analysis.ipynb`
 
 ## 📧 Contact
-- **Project Lead:** Pratham Nagar
-- **Project Link:** [GitHub Repository](https://github.com/your-username/drug-side-effects)
-
+**Project Lead**: Pratham Nagar 
