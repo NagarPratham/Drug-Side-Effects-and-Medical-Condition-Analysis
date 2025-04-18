@@ -68,11 +68,11 @@ pip install -r requirements.txt
 
 ## 🛠 Usage
 Run the Jupyter notebooks in this order:
-1. `1_data_collection_cleaning.ipynb`
-2. `2_eda_analysis.ipynb`
-3. `3_sentiment_analysis.ipynb`
-4. `4_model_training.ipynb`
-5. `5_clustering_analysis.ipynb`
+1. Data_collection_cleaning
+2. EDA_analysis
+3. Sentiment_analysis
+4. Model_training
+5. Clustering_analysis
 
 ## 📧 Contact
 **Project Lead**: Pratham Nagar 
